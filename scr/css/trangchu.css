@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 100px; /* Đặt kích thước chiều rộng */
+    height: 100px; /* Đặt kích thước chiều cao */
+    border-radius: 50%; /* Làm cho ảnh thành hình tròn */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo và lấp đầy khu vực hình tròn */
+}
+
+.header nav {
+    display: flex;
+    gap: 15px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.left-panel, .right-panel {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+}
+
+.left-panel {
+    flex: 3;
+}
+
+.right-panel {
+    flex: 1;
+}
+
+.announcement {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.announcement img {
+    height: 300px;
+    width: 1000px;
+}
+
+.announcement-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.announcement-list li {
+    margin: 10px 0;
+}
+
+.announcement-list a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.announcement-list a:hover {
+    text-decoration: underline;
+}
+
+.login-box {
+    text-align: center;
+}
+
+.login-box input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+.login-box button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.features ul li a {
+    text-decoration: none; 
+    color: #007BFF; 
+    font-weight: bold; 
+}
+
+.features ul li a:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}
+.footer {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 200px;
+}
+
+.footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
